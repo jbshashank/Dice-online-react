@@ -1,0 +1,16 @@
+{
+  "name": "dice-online",
+  "version": "1.0.0",
+  "description": "Online multiplayer Dice game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "client": "npm start --prefix client"
+  },
+  "author": "Shashank",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^3.1.1"
+  }
+}
